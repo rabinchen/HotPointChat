@@ -9,8 +9,8 @@
 给服务端，表示互联成功，然后双方可以点击左下角的邮箱按钮，互发聊天内容，<br>
 点击右上角的按钮可以清空聊天界面。程序截图如下：<br>
 1.程序主界面：<br>
-![](https://github.com/clbczx/HotPointChat/blob/master/screenshot/home.png)
+![](https://github.com/clbczx/HotPointChat/blob/master/screenshot/home.png?raw=true)
 2.wifi扫描结果：<br>
-![](https://github.com/clbczx/HotPointChat/blob/master/screenshot/wifiscan.png)
+![](https://github.com/czxclb/HotPointChat/blob/master/sceenshot/home.png?raw=true)
 3.聊天界面：<br>
 ![](https://github.com/czxclb/HotPointChat/blob/master/sceenshot/chat.jpg?raw=true)
