@@ -13,4 +13,4 @@
 2.wifi扫描结果：<br>
 ![](https://github.com/clbczx/HotPointChat/blob/master/screenshot/wifiscan.png)
 3.聊天界面：<br>
-![](https://github.com/clbczx/HotPointChat/blob/master/screenshot/chat.jpg)
+![](https://github.com/czxclb/HotPointChat/blob/master/sceenshot/chat.jpg?raw=true)
