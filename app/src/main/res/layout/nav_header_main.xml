@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:fitsSystemWindows="true"
+        android:background="@android:color/transparent"
+        tools:context=".MainActivity">
+        <Button
+            android:id="@+id/create_ap"
+            android:text="创建热点"
+            android:textColor="#fff"
+            android:clickable="true"
+            android:background="@drawable/bg_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/close_ap"
+            android:layout_toRightOf="@+id/create_ap"
+            android:text="关闭热点"
+            android:textColor="#fff"
+            android:clickable="true"
+            android:background="@drawable/bg_pink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/search_wifi"
+            android:layout_below="@+id/create_ap"
+            android:text="搜索wifi"
+            android:textColor="#fff"
+            android:clickable="true"
+            android:background="@drawable/bg_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/close_wifi"
+            android:layout_below="@+id/close_ap"
+            android:layout_toRightOf="@+id/search_wifi"
+            android:text="关闭wifi"
+            android:clickable="true"
+            android:textColor="#fff"
+            android:background="@drawable/bg_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"/>
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/search_wifi"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp">
+            <TextView
+                android:id="@+id/wifi_state"
+                android:textColor="#fff"
+                android:text="wifi状态:..."
+                android:layout_below="@+id/search_wifi"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/ap_state"
+                android:textColor="#fff"
+                android:text="热点状态:..."
+                android:layout_below="@+id/search_wifi"
+                android:layout_toRightOf="@+id/wifi_state"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/wifi_list"
+        android:layout_below="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"/>
+
+</RelativeLayout>
